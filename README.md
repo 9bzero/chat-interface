@@ -1,23 +1,29 @@
-# chat-interface
+# Chat Interface
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Modern chat UI with emoji reactions, typing indicator, and quick replies
+Modern chat UI — message threading, emoji reactions, file attachment simulation, and a clean responsive layout.
 
 ## Features
-- 💬 Real-time-style chat with simulated replies
-- ⌨️ Animated typing indicator
-- ⚡ Quick reply suggestions
-- 👥 4 demo contacts with online/away/offline status
-- 🔍 Contact search sidebar
+
+- Multi-conversation sidebar
+- Message threading and reply chains
+- Emoji reaction picker per message
+- File attachment UI (simulated)
+- Typing indicator animation
+- Online/offline status indicators
+- Unread message badge per conversation
+- Responsive — works on mobile and desktop
 
 ## Stack
-`React 18` · `TypeScript` · `Vite`
 
-## Quick Start
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
